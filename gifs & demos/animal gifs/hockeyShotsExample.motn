@@ -1,0 +1,1771 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ozxmlscene>
+<ozml version="5.11">
+
+<displayversion>5.5.1</displayversion>
+
+<factory id="1" uuid="0e8d443513b611d89395000a95af9f7e">
+	<description>Channel</description>
+	<manufacturer>Apple</manufacturer>
+	<version>1</version>
+</factory>
+
+<factory id="2" uuid="10405f52139811d8b4db000a95af9f7e">
+	<description>Channel</description>
+	<manufacturer>Apple</manufacturer>
+	<version>1</version>
+</factory>
+
+<factory id="3" uuid="27f3ee8b229211d7925a00039389b702">
+	<description>Channel</description>
+	<manufacturer>Apple</manufacturer>
+	<version>1</version>
+</factory>
+
+<factory id="4" uuid="46c844a813d311d8a438000a95af9f7e">
+	<description>Channel</description>
+	<manufacturer>Apple</manufacturer>
+	<version>1</version>
+</factory>
+
+<factory id="5" uuid="558f10b4a1c011d7998900039389b702">
+	<description>Channel</description>
+	<manufacturer>Apple</manufacturer>
+	<version>1</version>
+</factory>
+
+<factory id="6" uuid="65cb4dc9d4504fa281921f5f751fba06">
+	<description>Widget</description>
+	<manufacturer>Apple</manufacturer>
+	<version>1</version>
+</factory>
+
+<factory id="7" uuid="66fc0d6af6a911d6a7a7000393670732">
+	<description>Image</description>
+	<manufacturer>Apple</manufacturer>
+	<version>1</version>
+</factory>
+
+<factory id="8" uuid="69f1e0a52e7911d8b19a000a95b0025a">
+	<description>Channel</description>
+	<manufacturer>Apple</manufacturer>
+	<version>1</version>
+</factory>
+
+<factory id="9" uuid="6b337e9c21aa11d7a08700039375d2ba">
+	<description>Master</description>
+	<manufacturer>Apple</manufacturer>
+	<version>1</version>
+</factory>
+
+<factory id="10" uuid="712462a4323911d78f8400039389b702">
+	<description>Shape</description>
+	<manufacturer>Apple</manufacturer>
+	<version>1</version>
+</factory>
+
+<factory id="11" uuid="7644521e2e7911d891a6000a95b0025a">
+	<description>Channel</description>
+	<manufacturer>Apple</manufacturer>
+	<version>1</version>
+</factory>
+
+<factory id="12" uuid="7d468273c013498e9806a0d7bc32fddf">
+	<description>Project</description>
+	<manufacturer>Apple</manufacturer>
+	<version>1</version>
+</factory>
+
+<factory id="13" uuid="878a64bd193011d8bac3000a95af9f7e">
+	<description>Channel</description>
+	<manufacturer>Apple</manufacturer>
+	<version>1</version>
+</factory>
+
+<factory id="14" uuid="caf198bdb7c34dccb8af6ebb4f382ae3">
+	<description>Replicator</description>
+	<manufacturer>Apple</manufacturer>
+	<version>1</version>
+</factory>
+
+<factory id="15" uuid="dab733bb21ab47e08874d786d2fdddc9">
+	<description>Replicator Cell</description>
+	<manufacturer>Apple</manufacturer>
+	<version>1</version>
+</factory>
+
+<factory id="16" uuid="f32e7a31146f11d8a20a000a95af9f7e">
+	<description>Gradient</description>
+	<manufacturer>Apple</manufacturer>
+	<version>1</version>
+</factory>
+
+<factory id="17" uuid="fdc1944b229111d7b1c300039389b702">
+	<description>Channel</description>
+	<manufacturer>Apple</manufacturer>
+	<version>1</version>
+</factory>
+
+
+<build></build>
+
+<description></description>
+
+<canvas>
+	<layout>1</layout>
+	<activeView>0</activeView>
+</canvas>
+
+<viewer subview="0">
+	<resolutionMode>0</resolutionMode>
+	<dynamicResolution>1</dynamicResolution>
+	<viewmode>0</viewmode>
+	<overlayOptions>64268</overlayOptions>
+	<oscOptions>30</oscOptions>
+	<compensateAspectRatio>1</compensateAspectRatio>
+	<renderFields>0</renderFields>
+	<showMotionBlur>0</showMotionBlur>
+	<showFrameBlending>1</showFrameBlending>
+	<showLighting>1</showLighting>
+	<showShadows>1</showShadows>
+	<showReflection>1</showReflection>
+	<showDepthOfField>0</showDepthOfField>
+	<renderFullView>1</renderFullView>
+	<renderQuality>2</renderQuality>
+	<textRenderQuality>2</textRenderQuality>
+	<showHighQualityResampling>0</showHighQualityResampling>
+	<showShapeAntialiasing>1</showShapeAntialiasing>
+	<show3DIntersectionAntialiasing>0</show3DIntersectionAntialiasing>
+	<cameraType>0</cameraType>
+	<cameraName>Active Camera</cameraName>
+	<mirrorHMD>0</mirrorHMD>
+	<panZoom camera="0" zoom="0.5" panX="276" panY="138" mode="1" centered="1"/>
+</viewer>
+
+<projectPanel>
+	<layersPreviewColumn>1</layersPreviewColumn>
+	<layersOpacityColumn>0</layersOpacityColumn>
+	<layersBlendColumn>0</layersBlendColumn>
+	<displayMasks>1</displayMasks>
+	<displayBehaviors>1</displayBehaviors>
+	<displayEffects>1</displayEffects>
+	<layersVerticalZoom>2.9352457523345947</layersVerticalZoom>
+	<mediaPreviewColumn>1</mediaPreviewColumn>
+	<mediaTypeColumn>1</mediaTypeColumn>
+	<mediaDurationColumn>1</mediaDurationColumn>
+	<mediaInUseColumn>1</mediaInUseColumn>
+	<mediaFrameSizeColumn>1</mediaFrameSizeColumn>
+	<mediaCompressorColumn>1</mediaCompressorColumn>
+	<mediaDepthColumn>1</mediaDepthColumn>
+	<mediaFrameRateColumn>1</mediaFrameRateColumn>
+	<mediaDataRateColumn>1</mediaDataRateColumn>
+	<mediaAudioRateColumn>1</mediaAudioRateColumn>
+	<mediaAudioFormatColumn>1</mediaAudioFormatColumn>
+	<mediaFileSizeColumn>1</mediaFileSizeColumn>
+	<mediaFileCreatedColumn>1</mediaFileCreatedColumn>
+	<mediaDileModifiedColumn>1</mediaDileModifiedColumn>
+	<mediaVerticalZoom>1.7999999523162842</mediaVerticalZoom>
+</projectPanel>
+
+<timeline>
+	<displayVideo>1</displayVideo>
+	<displayAudio>0</displayAudio>
+	<displayKeyframes>0</displayKeyframes>
+	<displayMasks>1</displayMasks>
+	<displayBehaviors>1</displayBehaviors>
+	<displayEffects>1</displayEffects>
+	<videoVerticalZoom>1.5555555555555556</videoVerticalZoom>
+	<audioVerticalZoom>1.5555555555555556</audioVerticalZoom>
+	<displayRange in="-2477227979 1767578125 3 0" out="28094814798 1000000000 3 0"/>
+</timeline>
+
+<curveeditor>
+	<autozoom>0</autozoom>
+	<snapping>0</snapping>
+	<displayAudioWaveform>0</displayAudioWaveform>
+	<lockKeyframesInTime>0</lockKeyframesInTime>
+	<displayRange in="-2477227979 1767578125 3 0" out="28094814798 1000000000 3 0"/>
+	<currentviewvolume originx="-1.4014814643624309" originy="-62.5" width="29.496296262000001" height="125"/>
+	<snapshotChannels>0</snapshotChannels>
+</curveeditor>
+
+<inspector>
+	<collapseState id="./1/100" state="1"/>
+	<collapseState id="./1/200" state="1"/>
+	<collapseState id="./1/233" state="1"/>
+	<collapseState id="./1/324" state="0"/>
+</inspector>
+
+<scene>
+	<sceneSettings>
+		<width>850</width>
+		<height>480</height>
+		<duration>800</duration>
+		<shouldOverrideFCDuration>0</shouldOverrideFCDuration>
+		<frameRate>30</frameRate>
+		<NTSC>1</NTSC>
+		<pixelAspectRatio>1</pixelAspectRatio>
+		<workingGamut>0</workingGamut>
+		<viewGamut>-1</viewGamut>
+		<optimizeForDisplay>0</optimizeForDisplay>
+		<backgroundColor red="0" green="0" blue="0" alpha="1"/>
+		<audioChannels>2</audioChannels>
+		<audioBitsPerSample>32</audioBitsPerSample>
+		<fieldRenderingMode>0</fieldRenderingMode>
+		<motionBlurSamples>8</motionBlurSamples>
+		<motionBlurDuration>1</motionBlurDuration>
+		<sharpScaling>0</sharpScaling>
+		<startTimecode>0</startTimecode>
+		<presetPath>/Applications/Motion.app/Contents/Resources/en.lproj/Presets/Project/Broadcast HD 1080.preset</presetPath>
+		<backgroundMode>0</backgroundMode>
+		<reflectionRecursionLimit>2</reflectionRecursionLimit>
+		<glyphOSCMode>0</glyphOSCMode>
+		<animateFlag>0</animateFlag>
+		<parameterColorSpaceID>3</parameterColorSpaceID>
+		<savePreviewMovie>0</savePreviewMovie>
+		<Object3DEnvironments>100</Object3DEnvironments>
+	</sceneSettings>
+	<exportSettings>
+		<version>1</version>
+		<locationMode>0</locationMode>
+		<resolutionMode>3</resolutionMode>
+		<colorMode>2</colorMode>
+		<colorSpace>3</colorSpace>
+		<colorSpaceUserSetting>3</colorSpaceUserSetting>
+		<premultiplyAlpha>1</premultiplyAlpha>
+		<renderQuality>2</renderQuality>
+		<textRenderQuality>2</textRenderQuality>
+		<useHighQualityResampling>0</useHighQualityResampling>
+		<useShapeAntialiasing>1</useShapeAntialiasing>
+		<use3DIntersectionAntialiasing>0</use3DIntersectionAntialiasing>
+		<fieldRenderingMode>1</fieldRenderingMode>
+		<motionBlurMode>1</motionBlurMode>
+		<frameBlendingMode>0</frameBlendingMode>
+		<camera>0</camera>
+		<lightingMode>0</lightingMode>
+		<shadowsMode>0</shadowsMode>
+		<reflectionsMode>0</reflectionsMode>
+		<depthOfFieldMode>1</depthOfFieldMode>
+	</exportSettings>
+	<publishSettings>
+		<version>2</version>
+	</publishSettings>
+	<currentFrame>132132 120000 1 0</currentFrame>
+	<activeLayer>10003</activeLayer>
+	<timeRange offset="0 1 1 0" duration="3203200 120000 1 0"/>
+	<playRange offset="0 1 1 0" duration="2894892 120000 1 0"/>
+	<flags>1</flags>
+	<audioTracks>0</audioTracks>
+	<timemarkerset/>
+	<guideset/>
+	<curvesets selected="1"/>
+	<scenenode name="Project" id="10000" factoryID="12" version="5">
+		<scenenode name="Widget" id="10002" factoryID="6" version="5">
+			<flags>0</flags>
+			<timing in="0 1 1 0" out="-4004 120000 1 0" offset="0 1 1 0"/>
+			<foldFlags>0</foldFlags>
+			<baseFlags>16</baseFlags>
+			<parameter name="Properties" id="1" flags="8589938704"/>
+			<parameter name="Object" id="2" flags="8589938704">
+				<parameter name="Options" id="103" flags="8589938688"/>
+				<parameter name="Hidden" id="102" flags="8589934608" default="0" value="1"/>
+				<parameter name="Snapshots" id="101" flags="8589938706"/>
+				<parameter name="Widget" id="100" flags="8589934608" default="1.7777777777777777" value="1.7777777777777777"/>
+			</parameter>
+		</scenenode>
+		<flags>0</flags>
+		<timing in="0 1 1 0" out="-4004 120000 1 0" offset="0 1 1 0"/>
+		<foldFlags>0</foldFlags>
+		<baseFlags>16</baseFlags>
+		<parameter name="Properties" id="1" flags="8589938704"/>
+		<parameter name="Object" id="2" flags="8589938704"/>
+	</scenenode>
+	<layer name="Group 4" id="10026">
+		<scenenode name="Circle" id="987568" factoryID="10" version="5">
+			<isShapeStyle>0</isShapeStyle>
+			<aspectRatio>1</aspectRatio>
+			<flags>0</flags>
+			<timing in="2730728 120000 1 0" out="2898896 120000 1 0" offset="1137136 120000 1 0"/>
+			<foldFlags>0</foldFlags>
+			<baseFlags>524304</baseFlags>
+			<parameter name="Properties" id="1" flags="8589938704">
+				<parameter name="Transform" id="100" flags="8589938704">
+					<parameter name="Position" id="101" flags="8589938704">
+						<foldFlags>15</foldFlags>
+						<parameter name="X" id="1" flags="8589934608" default="0" value="59.8729248046875"/>
+						<parameter name="Y" id="2" flags="8589934608" default="0" value="81.98065185546875"/>
+					</parameter>
+				</parameter>
+				<parameter name="Lighting" id="230" flags="8589938706">
+					<foldFlags>15</foldFlags>
+				</parameter>
+				<parameter name="Shadows" id="234" flags="8589938706">
+					<foldFlags>15</foldFlags>
+				</parameter>
+				<parameter name="Reflection" id="223" flags="8589971474">
+					<foldFlags>131087</foldFlags>
+				</parameter>
+			</parameter>
+			<parameter name="Object" id="2" flags="8589938704">
+				<parameter name="Shape" id="353" flags="8589938704">
+					<parameter name="Animation" id="117" flags="8589934610" default="0" value="0">
+						<curve_X/>
+						<curve_Y/>
+						<closed>0</closed>
+					</parameter>
+					<parameter name="Shape Type" id="100" flags="12884967442" default="4" value="4"/>
+					<parameter name="Closed" id="116" flags="8590000146" default="0" value="1"/>
+					<parameter name="Roundness" id="144" flags="8589934610" default="0" value="0"/>
+					<parameter name="Preserve Scale" id="152" flags="8589934610" default="1" value="1"/>
+					<parameter name="Fill" id="113" flags="8589938704">
+						<foldFlags>131072</foldFlags>
+						<parameter name="Fill Color" id="111" flags="12884906000">
+							<foldFlags>15</foldFlags>
+							<parameter name="Red" id="1" flags="8589934608" default="1" value="0"/>
+							<parameter name="Green" id="2" flags="8589934608" default="1" value="0"/>
+						</parameter>
+						<parameter name="Fill Opacity" id="141" flags="8589934608" default="1" value="0"/>
+					</parameter>
+					<parameter name="Outline" id="108" flags="8589938705">
+						<foldFlags>131072</foldFlags>
+						<parameter name="Brush Color" id="107" flags="8589938704">
+							<foldFlags>15</foldFlags>
+							<parameter name="Red" id="1" flags="8589934608" default="1" value="0.93163436651229858"/>
+							<parameter name="Green" id="2" flags="8589934608" default="1" value="0.13408583402633667"/>
+							<parameter name="Blue" id="3" flags="8589934608" default="1" value="0"/>
+						</parameter>
+						<parameter name="Arrow Length" id="132" flags="8589934610" default="3" value="3"/>
+						<parameter name="Arrow Width" id="133" flags="8589934610" default="3" value="3"/>
+						<parameter name="Pressure Over Stroke" id="136" flags="8724348946">
+							<curve type="1" default="1" value="1" round="0">
+								<numberOfKeypoints>2</numberOfKeypoints>
+								<min>0</min>
+								<max>1</max>
+								<keypoint interpolation="1" flags="0">
+									<time>0 1 1 0</time>
+									<value>1</value>
+									<outputTangentTime>0.33333333333333331</outputTangentTime>
+									<outputTangentValue>0</outputTangentValue>
+								</keypoint>
+								<keypoint interpolation="1" flags="0">
+									<time>1 1 1 0</time>
+									<value>1</value>
+									<inputTangentTime>-0.33333333333333331</inputTangentTime>
+									<inputTangentValue>0</inputTangentValue>
+									<outputTangentTime>0.33333333333333331</outputTangentTime>
+									<outputTangentValue>-0</outputTangentValue>
+								</keypoint>
+							</curve>
+							<rangeName>Stroke Length</rangeName>
+						</parameter>
+						<parameter name="Pen Speed Over Stroke" id="138" flags="8724348946">
+							<curve type="1" default="1" value="1" round="0">
+								<numberOfKeypoints>2</numberOfKeypoints>
+								<min>0</min>
+								<max>1</max>
+								<keypoint interpolation="1" flags="0">
+									<time>0 1 1 0</time>
+									<value>1</value>
+									<outputTangentTime>0.33333333333333331</outputTangentTime>
+									<outputTangentValue>0</outputTangentValue>
+								</keypoint>
+								<keypoint interpolation="1" flags="0">
+									<time>1 1 1 0</time>
+									<value>1</value>
+									<inputTangentTime>-0.33333333333333331</inputTangentTime>
+									<inputTangentValue>0</inputTangentValue>
+									<outputTangentTime>0.33333333333333331</outputTangentTime>
+									<outputTangentValue>-0</outputTangentValue>
+								</keypoint>
+							</curve>
+							<rangeName>Stroke Length</rangeName>
+						</parameter>
+					</parameter>
+					<parameter name="Feather" id="102" flags="8589967376" default="0" value="0"/>
+					<parameter name="Falloff" id="158" flags="8589967376" default="0" value="0"/>
+					<parameter name="Curvature" id="159" flags="12884901904" default="1" value="1"/>
+					<parameter name="Radius" id="160" flags="8589938704">
+						<foldFlags>8388623</foldFlags>
+						<parameter name="X" id="1" flags="12884901904" default="26.5374755859375" value="26.5374755859375"/>
+						<parameter name="Y" id="2" flags="12884901904" default="26.5374755859375" value="26.5374755859375"/>
+					</parameter>
+					<parameter name="Completed" id="157" flags="8589934610" default="0" value="1"/>
+				</parameter>
+			</parameter>
+		</scenenode>
+		<scenenode name="yt1s.com - 10 Shooting Drills To Improve Your Hockey Shot At Home  HockeyAtHome_480p 4 copy" id="10050" factoryID="7" version="5">
+			<validTracks>0</validTracks>
+			<aspectRatio>1</aspectRatio>
+			<flags>0</flags>
+			<linkedobjects>10053</linkedobjects>
+			<timing in="2070068 120000 1 0" out="2890888 120000 1 0" offset="-43903860 120000 1 0"/>
+			<foldFlags>16384</foldFlags>
+			<baseFlags>524304</baseFlags>
+			<parameter name="Properties" id="1" flags="8589938704">
+				<parameter name="Lighting" id="230" flags="8589938706">
+					<foldFlags>15</foldFlags>
+				</parameter>
+				<parameter name="Shadows" id="234" flags="8589938706">
+					<foldFlags>15</foldFlags>
+				</parameter>
+				<parameter name="Reflection" id="223" flags="8589971474">
+					<foldFlags>131087</foldFlags>
+				</parameter>
+				<parameter name="Media" id="324" flags="8589938704">
+					<foldFlags>4</foldFlags>
+					<parameter name="Source Media" id="300" flags="81604444176" default="10005" value="10005"/>
+					<parameter name="Source Media" id="325" flags="8590000146"/>
+				</parameter>
+				<parameter name="Page Number" id="301" flags="8589934610" default="1" value="1"/>
+				<parameter name="Speed" id="309" flags="8594194448" default="1" value="0.5"/>
+				<parameter name="Retime Value" id="304" flags="8590066066">
+					<curve type="1" default="1" value="5742" round="0" retimingExtrapolation="1">
+						<numberOfKeypoints>2</numberOfKeypoints>
+						<postExtrapolation>1</postExtrapolation>
+						<keypoint interpolation="1" flags="0">
+							<time>45973928 120000 1 0</time>
+							<value>5742</value>
+						</keypoint>
+						<keypoint interpolation="1" flags="0">
+							<time>46798752 120000 1 0</time>
+							<value>5845</value>
+						</keypoint>
+					</curve>
+				</parameter>
+				<parameter name="Retime Value Cache" id="319" flags="8590065810">
+					<curve type="1" default="1" value="1">
+						<numberOfKeypoints>2</numberOfKeypoints>
+						<keypoint interpolation="1" flags="128">
+							<time>0 1 1 0</time>
+							<value>1</value>
+						</keypoint>
+						<keypoint interpolation="1" flags="128">
+							<time>26162136 120000 1 0</time>
+							<value>6535</value>
+						</keypoint>
+					</curve>
+				</parameter>
+				<parameter name="Duration Cache" id="320" flags="8589934610" default="0" value="6534"/>
+			</parameter>
+			<parameter name="Object" id="2" flags="8589938704">
+				<parameter name="Width" id="313" flags="8589934610" default="1" value="854"/>
+				<parameter name="Height" id="314" flags="8589934610" default="1" value="480"/>
+			</parameter>
+		</scenenode>
+		<scenenode name="yt1s.com - 10 Shooting Drills To Improve Your Hockey Shot At Home  HockeyAtHome_480p 4" id="10027" factoryID="7" version="5">
+			<validTracks>1</validTracks>
+			<aspectRatio>1</aspectRatio>
+			<flags>0</flags>
+			<linkedobjects>10028</linkedobjects>
+			<timing in="1837836 120000 1 0" out="2066064 120000 1 0" offset="-20916896 120000 1 0"/>
+			<foldFlags>16384</foldFlags>
+			<baseFlags>524304</baseFlags>
+			<parameter name="Properties" id="1" flags="8589938704">
+				<parameter name="Lighting" id="230" flags="8589938706">
+					<foldFlags>15</foldFlags>
+				</parameter>
+				<parameter name="Shadows" id="234" flags="8589938706">
+					<foldFlags>15</foldFlags>
+				</parameter>
+				<parameter name="Reflection" id="223" flags="8589971474">
+					<foldFlags>131087</foldFlags>
+				</parameter>
+				<parameter name="Media" id="324" flags="8589938704">
+					<foldFlags>4</foldFlags>
+					<parameter name="Source Media" id="300" flags="81604444176" default="10005" value="10005"/>
+					<parameter name="Source Media" id="325" flags="8590000146"/>
+				</parameter>
+				<parameter name="Page Number" id="301" flags="8589934610" default="1" value="1"/>
+				<parameter name="Retime Value" id="304" flags="8590066066">
+					<curve type="1" default="1" value="5684" round="0" retimingExtrapolation="1">
+						<numberOfKeypoints>2</numberOfKeypoints>
+						<postExtrapolation>1</postExtrapolation>
+						<keypoint interpolation="1" flags="0">
+							<time>22754732 120000 1 0</time>
+							<value>5684</value>
+						</keypoint>
+						<keypoint interpolation="1" flags="0">
+							<time>22986964 120000 1 0</time>
+							<value>5742</value>
+						</keypoint>
+					</curve>
+				</parameter>
+				<parameter name="Retime Value Cache" id="319" flags="8590065810">
+					<curve type="1" default="1" value="1">
+						<numberOfKeypoints>2</numberOfKeypoints>
+						<keypoint interpolation="1" flags="128">
+							<time>0 1 1 0</time>
+							<value>1</value>
+						</keypoint>
+						<keypoint interpolation="1" flags="128">
+							<time>26162136 120000 1 0</time>
+							<value>6535</value>
+						</keypoint>
+					</curve>
+				</parameter>
+				<parameter name="Duration Cache" id="320" flags="8589934610" default="0" value="6534"/>
+			</parameter>
+			<parameter name="Object" id="2" flags="8589938704">
+				<parameter name="Width" id="313" flags="8589934610" default="1" value="854"/>
+				<parameter name="Height" id="314" flags="8589934610" default="1" value="480"/>
+			</parameter>
+		</scenenode>
+		<aspectRatio>1</aspectRatio>
+		<flags>0</flags>
+		<timing in="1837836 120000 1 0" out="2898896 120000 1 0" offset="1209208 120000 1 0"/>
+		<foldFlags>0</foldFlags>
+		<baseFlags>524304</baseFlags>
+		<parameter name="Properties" id="1" flags="8589938704">
+			<parameter name="Lighting" id="230" flags="8589938706">
+				<foldFlags>15</foldFlags>
+			</parameter>
+			<parameter name="Shadows" id="234" flags="8589938706">
+				<foldFlags>15</foldFlags>
+			</parameter>
+			<parameter name="Reflection" id="223" flags="8589971474">
+				<foldFlags>131087</foldFlags>
+			</parameter>
+		</parameter>
+		<parameter name="Object" id="2" flags="8589938704">
+			<parameter name="Fixed Width" id="302" flags="12884901908" default="1920" value="1920"/>
+			<parameter name="Fixed Height" id="303" flags="12884901908" default="1080" value="1080"/>
+			<parameter name="Flatten" id="311" flags="8589934610" default="0" value="0"/>
+			<parameter name="Layer Order" id="305" flags="8589934610" default="0" value="0"/>
+			<parameter name="Aperture Width" id="312" flags="12884901906" default="1920" value="1920"/>
+			<parameter name="Aperture Height" id="313" flags="12884901906" default="1080" value="1080"/>
+		</parameter>
+	</layer>
+	<layer name="Group 3" id="10023">
+		<scenenode name="Circle copy" id="987571" factoryID="10" version="5">
+			<isShapeStyle>0</isShapeStyle>
+			<aspectRatio>1</aspectRatio>
+			<flags>0</flags>
+			<timing in="1601600 120000 1 0" out="1833832 120000 1 0" offset="8008 120000 1 0"/>
+			<foldFlags>0</foldFlags>
+			<baseFlags>524304</baseFlags>
+			<parameter name="Properties" id="1" flags="8589938704">
+				<parameter name="Transform" id="100" flags="8589938704">
+					<parameter name="Position" id="101" flags="8589938704">
+						<foldFlags>15</foldFlags>
+						<parameter name="X" id="1" flags="8589934608" default="0" value="59.8729248046875"/>
+						<parameter name="Y" id="2" flags="8589934608" default="0" value="81.98065185546875"/>
+					</parameter>
+				</parameter>
+				<parameter name="Lighting" id="230" flags="8589938706">
+					<foldFlags>15</foldFlags>
+				</parameter>
+				<parameter name="Shadows" id="234" flags="8589938706">
+					<foldFlags>15</foldFlags>
+				</parameter>
+				<parameter name="Reflection" id="223" flags="8589971474">
+					<foldFlags>131087</foldFlags>
+				</parameter>
+			</parameter>
+			<parameter name="Object" id="2" flags="8589938704">
+				<parameter name="Shape" id="353" flags="8589938704">
+					<parameter name="Animation" id="117" flags="8589934610" default="0" value="0">
+						<curve_X/>
+						<curve_Y/>
+						<closed>0</closed>
+					</parameter>
+					<parameter name="Shape Type" id="100" flags="12884967442" default="4" value="4"/>
+					<parameter name="Closed" id="116" flags="8590000146" default="0" value="1"/>
+					<parameter name="Roundness" id="144" flags="8589934610" default="0" value="0"/>
+					<parameter name="Preserve Scale" id="152" flags="8589934610" default="1" value="1"/>
+					<parameter name="Fill" id="113" flags="8589938704">
+						<foldFlags>131072</foldFlags>
+						<parameter name="Fill Color" id="111" flags="12884906000">
+							<foldFlags>15</foldFlags>
+							<parameter name="Red" id="1" flags="8589934608" default="1" value="0"/>
+							<parameter name="Green" id="2" flags="8589934608" default="1" value="0"/>
+						</parameter>
+						<parameter name="Fill Opacity" id="141" flags="8589934608" default="1" value="0"/>
+					</parameter>
+					<parameter name="Outline" id="108" flags="8589938705">
+						<foldFlags>131072</foldFlags>
+						<parameter name="Brush Color" id="107" flags="8589938704">
+							<foldFlags>15</foldFlags>
+							<parameter name="Red" id="1" flags="8589934608" default="1" value="0.93163436651229858"/>
+							<parameter name="Green" id="2" flags="8589934608" default="1" value="0.13408583402633667"/>
+							<parameter name="Blue" id="3" flags="8589934608" default="1" value="0"/>
+						</parameter>
+						<parameter name="Arrow Length" id="132" flags="8589934610" default="3" value="3"/>
+						<parameter name="Arrow Width" id="133" flags="8589934610" default="3" value="3"/>
+						<parameter name="Pressure Over Stroke" id="136" flags="8724348946">
+							<curve type="1" default="1" value="1" round="0">
+								<numberOfKeypoints>2</numberOfKeypoints>
+								<min>0</min>
+								<max>1</max>
+								<keypoint interpolation="1" flags="0">
+									<time>0 1 1 0</time>
+									<value>1</value>
+									<outputTangentTime>0.33333333333333331</outputTangentTime>
+									<outputTangentValue>0</outputTangentValue>
+								</keypoint>
+								<keypoint interpolation="1" flags="0">
+									<time>1 1 1 0</time>
+									<value>1</value>
+									<inputTangentTime>-0.33333333333333331</inputTangentTime>
+									<inputTangentValue>0</inputTangentValue>
+									<outputTangentTime>0.33333333333333331</outputTangentTime>
+									<outputTangentValue>-0</outputTangentValue>
+								</keypoint>
+							</curve>
+							<rangeName>Stroke Length</rangeName>
+						</parameter>
+						<parameter name="Pen Speed Over Stroke" id="138" flags="8724348946">
+							<curve type="1" default="1" value="1" round="0">
+								<numberOfKeypoints>2</numberOfKeypoints>
+								<min>0</min>
+								<max>1</max>
+								<keypoint interpolation="1" flags="0">
+									<time>0 1 1 0</time>
+									<value>1</value>
+									<outputTangentTime>0.33333333333333331</outputTangentTime>
+									<outputTangentValue>0</outputTangentValue>
+								</keypoint>
+								<keypoint interpolation="1" flags="0">
+									<time>1 1 1 0</time>
+									<value>1</value>
+									<inputTangentTime>-0.33333333333333331</inputTangentTime>
+									<inputTangentValue>0</inputTangentValue>
+									<outputTangentTime>0.33333333333333331</outputTangentTime>
+									<outputTangentValue>-0</outputTangentValue>
+								</keypoint>
+							</curve>
+							<rangeName>Stroke Length</rangeName>
+						</parameter>
+					</parameter>
+					<parameter name="Feather" id="102" flags="8589967376" default="0" value="0"/>
+					<parameter name="Falloff" id="158" flags="8589967376" default="0" value="0"/>
+					<parameter name="Curvature" id="159" flags="12884901904" default="1" value="1"/>
+					<parameter name="Radius" id="160" flags="8589938704">
+						<foldFlags>8388623</foldFlags>
+						<parameter name="X" id="1" flags="12884901904" default="26.5374755859375" value="26.5374755859375"/>
+						<parameter name="Y" id="2" flags="12884901904" default="26.5374755859375" value="26.5374755859375"/>
+					</parameter>
+					<parameter name="Completed" id="157" flags="8589934610" default="0" value="1"/>
+				</parameter>
+			</parameter>
+		</scenenode>
+		<scenenode name="yt1s.com - 10 Shooting Drills To Improve Your Hockey Shot At Home  HockeyAtHome_480p 3 copy" id="10045" factoryID="7" version="5">
+			<validTracks>0</validTracks>
+			<aspectRatio>1</aspectRatio>
+			<flags>0</flags>
+			<linkedobjects>10048</linkedobjects>
+			<timing in="1349348 120000 1 0" out="1833832 120000 1 0" offset="-25901876 120000 1 0"/>
+			<foldFlags>16384</foldFlags>
+			<baseFlags>524304</baseFlags>
+			<parameter name="Properties" id="1" flags="8589938704">
+				<parameter name="Lighting" id="230" flags="8589938706">
+					<foldFlags>15</foldFlags>
+				</parameter>
+				<parameter name="Shadows" id="234" flags="8589938706">
+					<foldFlags>15</foldFlags>
+				</parameter>
+				<parameter name="Reflection" id="223" flags="8589971474">
+					<foldFlags>131087</foldFlags>
+				</parameter>
+				<parameter name="Media" id="324" flags="8589938704">
+					<foldFlags>4</foldFlags>
+					<parameter name="Source Media" id="300" flags="81604444176" default="10005" value="10005"/>
+					<parameter name="Source Media" id="325" flags="8590000146"/>
+				</parameter>
+				<parameter name="Page Number" id="301" flags="8589934610" default="1" value="1"/>
+				<parameter name="Speed" id="309" flags="8594194448" default="1" value="0.5"/>
+				<parameter name="Retime Value" id="304" flags="8590066066">
+					<curve type="1" default="1" value="3404" round="0" retimingExtrapolation="1">
+						<numberOfKeypoints>2</numberOfKeypoints>
+						<postExtrapolation>1</postExtrapolation>
+						<keypoint interpolation="1" flags="0">
+							<time>27251224 120000 1 0</time>
+							<value>3404</value>
+						</keypoint>
+						<keypoint interpolation="1" flags="0">
+							<time>27739712 120000 1 0</time>
+							<value>3465</value>
+						</keypoint>
+					</curve>
+				</parameter>
+				<parameter name="Retime Value Cache" id="319" flags="8590065810">
+					<curve type="1" default="1" value="1">
+						<numberOfKeypoints>2</numberOfKeypoints>
+						<keypoint interpolation="1" flags="128">
+							<time>0 1 1 0</time>
+							<value>1</value>
+						</keypoint>
+						<keypoint interpolation="1" flags="128">
+							<time>26162136 120000 1 0</time>
+							<value>6535</value>
+						</keypoint>
+					</curve>
+				</parameter>
+				<parameter name="Duration Cache" id="320" flags="8589934610" default="0" value="6534"/>
+			</parameter>
+			<parameter name="Object" id="2" flags="8589938704">
+				<parameter name="Width" id="313" flags="8589934610" default="1" value="854"/>
+				<parameter name="Height" id="314" flags="8589934610" default="1" value="480"/>
+			</parameter>
+		</scenenode>
+		<scenenode name="yt1s.com - 10 Shooting Drills To Improve Your Hockey Shot At Home  HockeyAtHome_480p 3" id="10024" factoryID="7" version="5">
+			<validTracks>1</validTracks>
+			<aspectRatio>1</aspectRatio>
+			<flags>0</flags>
+			<linkedobjects>10025</linkedobjects>
+			<timing in="1113112 120000 1 0" out="1345344 120000 1 0" offset="-12276264 120000 1 0"/>
+			<foldFlags>16384</foldFlags>
+			<baseFlags>524368</baseFlags>
+			<parameter name="Properties" id="1" flags="8589938704">
+				<parameter name="Lighting" id="230" flags="8589938706">
+					<foldFlags>15</foldFlags>
+				</parameter>
+				<parameter name="Shadows" id="234" flags="8589938706">
+					<foldFlags>15</foldFlags>
+				</parameter>
+				<parameter name="Reflection" id="223" flags="8589971474">
+					<foldFlags>131087</foldFlags>
+				</parameter>
+				<parameter name="Media" id="324" flags="8589938704">
+					<foldFlags>4</foldFlags>
+					<parameter name="Source Media" id="300" flags="81604444176" default="10005" value="10005"/>
+					<parameter name="Source Media" id="325" flags="8590000146"/>
+				</parameter>
+				<parameter name="Page Number" id="301" flags="8589934610" default="1" value="1"/>
+				<parameter name="Retime Value" id="304" flags="8590066066">
+					<curve type="1" default="1" value="3345" round="0" retimingExtrapolation="1">
+						<numberOfKeypoints>2</numberOfKeypoints>
+						<postExtrapolation>1</postExtrapolation>
+						<keypoint interpolation="1" flags="0">
+							<time>13389376 120000 1 0</time>
+							<value>3345</value>
+						</keypoint>
+						<keypoint interpolation="1" flags="0">
+							<time>13625612 120000 1 0</time>
+							<value>3404</value>
+						</keypoint>
+					</curve>
+				</parameter>
+				<parameter name="Retime Value Cache" id="319" flags="8590065810">
+					<curve type="1" default="1" value="1">
+						<numberOfKeypoints>2</numberOfKeypoints>
+						<keypoint interpolation="1" flags="128">
+							<time>0 1 1 0</time>
+							<value>1</value>
+						</keypoint>
+						<keypoint interpolation="1" flags="128">
+							<time>26162136 120000 1 0</time>
+							<value>6535</value>
+						</keypoint>
+					</curve>
+				</parameter>
+				<parameter name="Duration Cache" id="320" flags="8589934610" default="0" value="6534"/>
+			</parameter>
+			<parameter name="Object" id="2" flags="8589938704">
+				<parameter name="Width" id="313" flags="8589934610" default="1" value="854"/>
+				<parameter name="Height" id="314" flags="8589934610" default="1" value="480"/>
+			</parameter>
+		</scenenode>
+		<aspectRatio>1</aspectRatio>
+		<flags>0</flags>
+		<timing in="1113112 120000 1 0" out="1833832 120000 1 0" offset="-336336 120000 1 0"/>
+		<foldFlags>0</foldFlags>
+		<baseFlags>524368</baseFlags>
+		<parameter name="Properties" id="1" flags="8589938704">
+			<parameter name="Lighting" id="230" flags="8589938706">
+				<foldFlags>15</foldFlags>
+			</parameter>
+			<parameter name="Shadows" id="234" flags="8589938706">
+				<foldFlags>15</foldFlags>
+			</parameter>
+			<parameter name="Reflection" id="223" flags="8589971474">
+				<foldFlags>131087</foldFlags>
+			</parameter>
+		</parameter>
+		<parameter name="Object" id="2" flags="8589938704">
+			<parameter name="Fixed Width" id="302" flags="12884901908" default="1920" value="1920"/>
+			<parameter name="Fixed Height" id="303" flags="12884901908" default="1080" value="1080"/>
+			<parameter name="Flatten" id="311" flags="8589934610" default="0" value="0"/>
+			<parameter name="Layer Order" id="305" flags="8589934610" default="0" value="0"/>
+			<parameter name="Aperture Width" id="312" flags="12884901906" default="1920" value="1920"/>
+			<parameter name="Aperture Height" id="313" flags="12884901906" default="1080" value="1080"/>
+		</parameter>
+	</layer>
+	<layer name="Group 2" id="10020">
+		<scenenode name="Circle copy 1" id="987581" factoryID="10" version="5">
+			<isShapeStyle>0</isShapeStyle>
+			<aspectRatio>1</aspectRatio>
+			<flags>0</flags>
+			<timing in="948948 120000 1 0" out="1109108 120000 1 0" offset="-644644 120000 1 0"/>
+			<foldFlags>0</foldFlags>
+			<baseFlags>524304</baseFlags>
+			<parameter name="Properties" id="1" flags="8589938704">
+				<parameter name="Transform" id="100" flags="8589938704">
+					<parameter name="Position" id="101" flags="8589938704">
+						<foldFlags>15</foldFlags>
+						<parameter name="X" id="1" flags="8589934608" default="0" value="59.8729248046875"/>
+						<parameter name="Y" id="2" flags="8589934608" default="0" value="81.98065185546875"/>
+					</parameter>
+				</parameter>
+				<parameter name="Lighting" id="230" flags="8589938706">
+					<foldFlags>15</foldFlags>
+				</parameter>
+				<parameter name="Shadows" id="234" flags="8589938706">
+					<foldFlags>15</foldFlags>
+				</parameter>
+				<parameter name="Reflection" id="223" flags="8589971474">
+					<foldFlags>131087</foldFlags>
+				</parameter>
+			</parameter>
+			<parameter name="Object" id="2" flags="8589938704">
+				<parameter name="Shape" id="353" flags="8589938704">
+					<parameter name="Animation" id="117" flags="8589934610" default="0" value="0">
+						<curve_X/>
+						<curve_Y/>
+						<closed>0</closed>
+					</parameter>
+					<parameter name="Shape Type" id="100" flags="12884967442" default="4" value="4"/>
+					<parameter name="Closed" id="116" flags="8590000146" default="0" value="1"/>
+					<parameter name="Roundness" id="144" flags="8589934610" default="0" value="0"/>
+					<parameter name="Preserve Scale" id="152" flags="8589934610" default="1" value="1"/>
+					<parameter name="Fill" id="113" flags="8589938704">
+						<foldFlags>131072</foldFlags>
+						<parameter name="Fill Color" id="111" flags="12884906000">
+							<foldFlags>15</foldFlags>
+							<parameter name="Red" id="1" flags="8589934608" default="1" value="0"/>
+							<parameter name="Green" id="2" flags="8589934608" default="1" value="0"/>
+						</parameter>
+						<parameter name="Fill Opacity" id="141" flags="8589934608" default="1" value="0"/>
+					</parameter>
+					<parameter name="Outline" id="108" flags="8589938705">
+						<foldFlags>131072</foldFlags>
+						<parameter name="Brush Color" id="107" flags="8589938704">
+							<foldFlags>15</foldFlags>
+							<parameter name="Red" id="1" flags="8589934608" default="1" value="0.93163436651229858"/>
+							<parameter name="Green" id="2" flags="8589934608" default="1" value="0.13408583402633667"/>
+							<parameter name="Blue" id="3" flags="8589934608" default="1" value="0"/>
+						</parameter>
+						<parameter name="Arrow Length" id="132" flags="8589934610" default="3" value="3"/>
+						<parameter name="Arrow Width" id="133" flags="8589934610" default="3" value="3"/>
+						<parameter name="Pressure Over Stroke" id="136" flags="8724348946">
+							<curve type="1" default="1" value="1" round="0">
+								<numberOfKeypoints>2</numberOfKeypoints>
+								<min>0</min>
+								<max>1</max>
+								<keypoint interpolation="1" flags="0">
+									<time>0 1 1 0</time>
+									<value>1</value>
+									<outputTangentTime>0.33333333333333331</outputTangentTime>
+									<outputTangentValue>0</outputTangentValue>
+								</keypoint>
+								<keypoint interpolation="1" flags="0">
+									<time>1 1 1 0</time>
+									<value>1</value>
+									<inputTangentTime>-0.33333333333333331</inputTangentTime>
+									<inputTangentValue>0</inputTangentValue>
+									<outputTangentTime>0.33333333333333331</outputTangentTime>
+									<outputTangentValue>-0</outputTangentValue>
+								</keypoint>
+							</curve>
+							<rangeName>Stroke Length</rangeName>
+						</parameter>
+						<parameter name="Pen Speed Over Stroke" id="138" flags="8724348946">
+							<curve type="1" default="1" value="1" round="0">
+								<numberOfKeypoints>2</numberOfKeypoints>
+								<min>0</min>
+								<max>1</max>
+								<keypoint interpolation="1" flags="0">
+									<time>0 1 1 0</time>
+									<value>1</value>
+									<outputTangentTime>0.33333333333333331</outputTangentTime>
+									<outputTangentValue>0</outputTangentValue>
+								</keypoint>
+								<keypoint interpolation="1" flags="0">
+									<time>1 1 1 0</time>
+									<value>1</value>
+									<inputTangentTime>-0.33333333333333331</inputTangentTime>
+									<inputTangentValue>0</inputTangentValue>
+									<outputTangentTime>0.33333333333333331</outputTangentTime>
+									<outputTangentValue>-0</outputTangentValue>
+								</keypoint>
+							</curve>
+							<rangeName>Stroke Length</rangeName>
+						</parameter>
+					</parameter>
+					<parameter name="Feather" id="102" flags="8589967376" default="0" value="0"/>
+					<parameter name="Falloff" id="158" flags="8589967376" default="0" value="0"/>
+					<parameter name="Curvature" id="159" flags="12884901904" default="1" value="1"/>
+					<parameter name="Radius" id="160" flags="8589938704">
+						<foldFlags>8388623</foldFlags>
+						<parameter name="X" id="1" flags="12884901904" default="26.5374755859375" value="26.5374755859375"/>
+						<parameter name="Y" id="2" flags="12884901904" default="26.5374755859375" value="26.5374755859375"/>
+					</parameter>
+					<parameter name="Completed" id="157" flags="8589934610" default="0" value="1"/>
+				</parameter>
+			</parameter>
+		</scenenode>
+		<scenenode name="yt1s.com - 10 Shooting Drills To Improve Your Hockey Shot At Home  HockeyAtHome_480p 2 copy" id="10030" factoryID="7" version="5">
+			<validTracks>1</validTracks>
+			<aspectRatio>1</aspectRatio>
+			<flags>0</flags>
+			<linkedobjects>10033</linkedobjects>
+			<timing in="612612 120000 1 0" out="856856 120000 1 0" offset="-15215200 120000 1 0"/>
+			<foldFlags>16384</foldFlags>
+			<baseFlags>524304</baseFlags>
+			<parameter name="Properties" id="1" flags="8589938704">
+				<parameter name="Lighting" id="230" flags="8589938706">
+					<foldFlags>15</foldFlags>
+				</parameter>
+				<parameter name="Shadows" id="234" flags="8589938706">
+					<foldFlags>15</foldFlags>
+				</parameter>
+				<parameter name="Reflection" id="223" flags="8589971474">
+					<foldFlags>131087</foldFlags>
+				</parameter>
+				<parameter name="Media" id="324" flags="8589938704">
+					<parameter name="Source Media" id="300" flags="81604444176" default="10005" value="10005"/>
+					<parameter name="Source Media" id="325" flags="8590000146"/>
+				</parameter>
+				<parameter name="Page Number" id="301" flags="8589934610" default="1" value="1"/>
+				<parameter name="Retime Value" id="304" flags="8590066066">
+					<curve type="1" default="1" value="3954" round="0" retimingExtrapolation="1">
+						<numberOfKeypoints>2</numberOfKeypoints>
+						<postExtrapolation>1</postExtrapolation>
+						<keypoint interpolation="1" flags="0">
+							<time>15827812 120000 1 0</time>
+							<value>3954</value>
+						</keypoint>
+						<keypoint interpolation="1" flags="0">
+							<time>16076060 120000 1 0</time>
+							<value>4016</value>
+						</keypoint>
+					</curve>
+				</parameter>
+				<parameter name="Retime Value Cache" id="319" flags="8590065810">
+					<curve type="1" default="1" value="1">
+						<numberOfKeypoints>2</numberOfKeypoints>
+						<keypoint interpolation="1" flags="128">
+							<time>0 1 1 0</time>
+							<value>1</value>
+						</keypoint>
+						<keypoint interpolation="1" flags="128">
+							<time>26162136 120000 1 0</time>
+							<value>6535</value>
+						</keypoint>
+					</curve>
+				</parameter>
+				<parameter name="Duration Cache" id="320" flags="8589934610" default="0" value="6534"/>
+			</parameter>
+			<parameter name="Object" id="2" flags="8589938704">
+				<parameter name="Width" id="313" flags="8589934610" default="1" value="854"/>
+				<parameter name="Height" id="314" flags="8589934610" default="1" value="480"/>
+			</parameter>
+		</scenenode>
+		<scenenode name="yt1s.com - 10 Shooting Drills To Improve Your Hockey Shot At Home  HockeyAtHome_480p 2" id="10021" factoryID="7" version="5">
+			<validTracks>0</validTracks>
+			<aspectRatio>1</aspectRatio>
+			<flags>0</flags>
+			<linkedobjects>10022</linkedobjects>
+			<timing in="856856 120000 1 0" out="1109108 120000 1 0" offset="-32528496 120000 1 0"/>
+			<foldFlags>16384</foldFlags>
+			<baseFlags>524304</baseFlags>
+			<parameter name="Properties" id="1" flags="8589938704">
+				<parameter name="Lighting" id="230" flags="8589938706">
+					<foldFlags>15</foldFlags>
+				</parameter>
+				<parameter name="Shadows" id="234" flags="8589938706">
+					<foldFlags>15</foldFlags>
+				</parameter>
+				<parameter name="Reflection" id="223" flags="8589971474">
+					<foldFlags>131087</foldFlags>
+				</parameter>
+				<parameter name="Media" id="324" flags="8589938704">
+					<foldFlags>4</foldFlags>
+					<parameter name="Source Media" id="300" flags="81604444176" default="10005" value="10005"/>
+					<parameter name="Source Media" id="325" flags="8590000146"/>
+				</parameter>
+				<parameter name="Page Number" id="301" flags="8589934610" default="1" value="1"/>
+				<parameter name="Speed" id="309" flags="8594194448" default="1" value="0.5"/>
+				<parameter name="Retime Value" id="304" flags="8590066066">
+					<curve type="1" default="1" value="4170" round="0" retimingExtrapolation="1">
+						<numberOfKeypoints>2</numberOfKeypoints>
+						<postExtrapolation>1</postExtrapolation>
+						<keypoint interpolation="1" flags="0">
+							<time>33385352 120000 1 0</time>
+							<value>4170</value>
+						</keypoint>
+						<keypoint interpolation="1" flags="0">
+							<time>33641608 120000 1 0</time>
+							<value>4202</value>
+						</keypoint>
+					</curve>
+				</parameter>
+				<parameter name="Retime Value Cache" id="319" flags="8590065810">
+					<curve type="1" default="1" value="1">
+						<numberOfKeypoints>2</numberOfKeypoints>
+						<keypoint interpolation="1" flags="128">
+							<time>0 1 1 0</time>
+							<value>1</value>
+						</keypoint>
+						<keypoint interpolation="1" flags="128">
+							<time>26162136 120000 1 0</time>
+							<value>6535</value>
+						</keypoint>
+					</curve>
+				</parameter>
+				<parameter name="Duration Cache" id="320" flags="8589934610" default="0" value="6534"/>
+			</parameter>
+			<parameter name="Object" id="2" flags="8589938704">
+				<parameter name="Width" id="313" flags="8589934610" default="1" value="854"/>
+				<parameter name="Height" id="314" flags="8589934610" default="1" value="480"/>
+			</parameter>
+		</scenenode>
+		<aspectRatio>1</aspectRatio>
+		<flags>0</flags>
+		<timing in="612612 120000 1 0" out="1109108 120000 1 0" offset="-3967964 120000 1 0"/>
+		<foldFlags>0</foldFlags>
+		<baseFlags>524304</baseFlags>
+		<parameter name="Properties" id="1" flags="8589938704">
+			<parameter name="Lighting" id="230" flags="8589938706">
+				<foldFlags>15</foldFlags>
+			</parameter>
+			<parameter name="Shadows" id="234" flags="8589938706">
+				<foldFlags>15</foldFlags>
+			</parameter>
+			<parameter name="Reflection" id="223" flags="8589971474">
+				<foldFlags>131087</foldFlags>
+			</parameter>
+		</parameter>
+		<parameter name="Object" id="2" flags="8589938704">
+			<parameter name="Fixed Width" id="302" flags="12884901908" default="1920" value="1920"/>
+			<parameter name="Fixed Height" id="303" flags="12884901908" default="1080" value="1080"/>
+			<parameter name="Flatten" id="311" flags="8589934610" default="0" value="0"/>
+			<parameter name="Layer Order" id="305" flags="8589934610" default="0" value="0"/>
+			<parameter name="Aperture Width" id="312" flags="12884901906" default="1920" value="1920"/>
+			<parameter name="Aperture Height" id="313" flags="12884901906" default="1080" value="1080"/>
+		</parameter>
+	</layer>
+	<layer name="Group" id="10003">
+		<scenenode name="Rectangle" id="987639" factoryID="10" version="5">
+			<isShapeStyle>0</isShapeStyle>
+			<aspectRatio>1</aspectRatio>
+			<flags>0</flags>
+			<timing in="0 120000 1 0" out="24024 120000 1 0" offset="-60060 120000 1 0"/>
+			<foldFlags>0</foldFlags>
+			<baseFlags>524368</baseFlags>
+			<parameter name="Properties" id="1" flags="8589938704">
+				<parameter name="Transform" id="100" flags="8589938704">
+					<parameter name="Position" id="101" flags="8589938704">
+						<foldFlags>15</foldFlags>
+						<parameter name="X" id="1" flags="8589934608" default="0" value="0.33642578125"/>
+						<parameter name="Y" id="2" flags="8589934608" default="0" value="-0.064117431640625"/>
+					</parameter>
+				</parameter>
+				<parameter name="Lighting" id="230" flags="8589938706">
+					<foldFlags>15</foldFlags>
+				</parameter>
+				<parameter name="Shadows" id="234" flags="8589938706">
+					<foldFlags>15</foldFlags>
+				</parameter>
+				<parameter name="Reflection" id="223" flags="8589971474">
+					<foldFlags>131087</foldFlags>
+				</parameter>
+			</parameter>
+			<parameter name="Object" id="2" flags="8589938704">
+				<parameter name="Shape" id="353" flags="8589938704">
+					<parameter name="Animation" id="117" flags="8589934610" default="0" value="0">
+						<curve_X/>
+						<curve_Y/>
+						<closed>0</closed>
+					</parameter>
+					<parameter name="Shape Type" id="100" flags="12884967442" default="5" value="5"/>
+					<parameter name="Closed" id="116" flags="8590000146" default="0" value="1"/>
+					<parameter name="Fill" id="113" flags="8589938704">
+						<foldFlags>131072</foldFlags>
+						<parameter name="Fill Color" id="111" flags="12884906000">
+							<foldFlags>15</foldFlags>
+						</parameter>
+					</parameter>
+					<parameter name="Outline" id="108" flags="8589971472">
+						<foldFlags>131072</foldFlags>
+						<parameter name="Pressure Over Stroke" id="136" flags="8724348946">
+							<curve type="1" default="1" value="1" round="0">
+								<numberOfKeypoints>2</numberOfKeypoints>
+								<min>0</min>
+								<max>1</max>
+								<keypoint interpolation="1" flags="0">
+									<time>0 1 1 0</time>
+									<value>1</value>
+									<outputTangentTime>0.33333333333333331</outputTangentTime>
+									<outputTangentValue>0</outputTangentValue>
+								</keypoint>
+								<keypoint interpolation="1" flags="0">
+									<time>1 1 1 0</time>
+									<value>1</value>
+									<inputTangentTime>-0.33333333333333331</inputTangentTime>
+									<inputTangentValue>0</inputTangentValue>
+									<outputTangentTime>0.33333333333333331</outputTangentTime>
+									<outputTangentValue>-0</outputTangentValue>
+								</keypoint>
+							</curve>
+							<rangeName>Stroke Length</rangeName>
+						</parameter>
+						<parameter name="Pen Speed Over Stroke" id="138" flags="8724348946">
+							<curve type="1" default="1" value="1" round="0">
+								<numberOfKeypoints>2</numberOfKeypoints>
+								<min>0</min>
+								<max>1</max>
+								<keypoint interpolation="1" flags="0">
+									<time>0 1 1 0</time>
+									<value>1</value>
+									<outputTangentTime>0.33333333333333331</outputTangentTime>
+									<outputTangentValue>0</outputTangentValue>
+								</keypoint>
+								<keypoint interpolation="1" flags="0">
+									<time>1 1 1 0</time>
+									<value>1</value>
+									<inputTangentTime>-0.33333333333333331</inputTangentTime>
+									<inputTangentValue>0</inputTangentValue>
+									<outputTangentTime>0.33333333333333331</outputTangentTime>
+									<outputTangentValue>-0</outputTangentValue>
+								</keypoint>
+							</curve>
+							<rangeName>Stroke Length</rangeName>
+						</parameter>
+					</parameter>
+					<parameter name="Size" id="160" flags="8589938704">
+						<foldFlags>8388623</foldFlags>
+						<parameter name="Width" id="1" flags="12884901904" default="845.0654296875" value="845.0654296875"/>
+						<parameter name="Height" id="2" flags="12884901904" default="471.95513916015625" value="471.95513916015625"/>
+					</parameter>
+					<parameter name="Completed" id="157" flags="8589934610" default="0" value="1"/>
+				</parameter>
+			</parameter>
+		</scenenode>
+		<scenenode name="Circle copy 2" id="987591" factoryID="10" version="5">
+			<isShapeStyle>0</isShapeStyle>
+			<aspectRatio>1</aspectRatio>
+			<flags>0</flags>
+			<timing in="448448 120000 1 0" out="608608 120000 1 0" offset="-1145144 120000 1 0"/>
+			<foldFlags>0</foldFlags>
+			<baseFlags>524304</baseFlags>
+			<parameter name="Properties" id="1" flags="8589938704">
+				<parameter name="Transform" id="100" flags="8589938704">
+					<parameter name="Position" id="101" flags="8589938704">
+						<foldFlags>15</foldFlags>
+						<parameter name="X" id="1" flags="8589934608" default="0" value="59.8729248046875"/>
+						<parameter name="Y" id="2" flags="8589934608" default="0" value="81.98065185546875"/>
+					</parameter>
+				</parameter>
+				<parameter name="Lighting" id="230" flags="8589938706">
+					<foldFlags>15</foldFlags>
+				</parameter>
+				<parameter name="Shadows" id="234" flags="8589938706">
+					<foldFlags>15</foldFlags>
+				</parameter>
+				<parameter name="Reflection" id="223" flags="8589971474">
+					<foldFlags>131087</foldFlags>
+				</parameter>
+			</parameter>
+			<parameter name="Object" id="2" flags="8589938704">
+				<parameter name="Shape" id="353" flags="8589938704">
+					<parameter name="Animation" id="117" flags="8589934610" default="0" value="0">
+						<curve_X/>
+						<curve_Y/>
+						<closed>0</closed>
+					</parameter>
+					<parameter name="Shape Type" id="100" flags="12884967442" default="4" value="4"/>
+					<parameter name="Closed" id="116" flags="8590000146" default="0" value="1"/>
+					<parameter name="Roundness" id="144" flags="8589934610" default="0" value="0"/>
+					<parameter name="Preserve Scale" id="152" flags="8589934610" default="1" value="1"/>
+					<parameter name="Fill" id="113" flags="8589938704">
+						<foldFlags>131072</foldFlags>
+						<parameter name="Fill Color" id="111" flags="12884906000">
+							<foldFlags>15</foldFlags>
+							<parameter name="Red" id="1" flags="8589934608" default="1" value="0"/>
+							<parameter name="Green" id="2" flags="8589934608" default="1" value="0"/>
+						</parameter>
+						<parameter name="Fill Opacity" id="141" flags="8589934608" default="1" value="0"/>
+					</parameter>
+					<parameter name="Outline" id="108" flags="8589938705">
+						<foldFlags>131072</foldFlags>
+						<parameter name="Brush Color" id="107" flags="8589938704">
+							<foldFlags>15</foldFlags>
+							<parameter name="Red" id="1" flags="8589934608" default="1" value="0.93163436651229858"/>
+							<parameter name="Green" id="2" flags="8589934608" default="1" value="0.13408583402633667"/>
+							<parameter name="Blue" id="3" flags="8589934608" default="1" value="0"/>
+						</parameter>
+						<parameter name="Arrow Length" id="132" flags="8589934610" default="3" value="3"/>
+						<parameter name="Arrow Width" id="133" flags="8589934610" default="3" value="3"/>
+						<parameter name="Pressure Over Stroke" id="136" flags="8724348946">
+							<curve type="1" default="1" value="1" round="0">
+								<numberOfKeypoints>2</numberOfKeypoints>
+								<min>0</min>
+								<max>1</max>
+								<keypoint interpolation="1" flags="0">
+									<time>0 1 1 0</time>
+									<value>1</value>
+									<outputTangentTime>0.33333333333333331</outputTangentTime>
+									<outputTangentValue>0</outputTangentValue>
+								</keypoint>
+								<keypoint interpolation="1" flags="0">
+									<time>1 1 1 0</time>
+									<value>1</value>
+									<inputTangentTime>-0.33333333333333331</inputTangentTime>
+									<inputTangentValue>0</inputTangentValue>
+									<outputTangentTime>0.33333333333333331</outputTangentTime>
+									<outputTangentValue>-0</outputTangentValue>
+								</keypoint>
+							</curve>
+							<rangeName>Stroke Length</rangeName>
+						</parameter>
+						<parameter name="Pen Speed Over Stroke" id="138" flags="8724348946">
+							<curve type="1" default="1" value="1" round="0">
+								<numberOfKeypoints>2</numberOfKeypoints>
+								<min>0</min>
+								<max>1</max>
+								<keypoint interpolation="1" flags="0">
+									<time>0 1 1 0</time>
+									<value>1</value>
+									<outputTangentTime>0.33333333333333331</outputTangentTime>
+									<outputTangentValue>0</outputTangentValue>
+								</keypoint>
+								<keypoint interpolation="1" flags="0">
+									<time>1 1 1 0</time>
+									<value>1</value>
+									<inputTangentTime>-0.33333333333333331</inputTangentTime>
+									<inputTangentValue>0</inputTangentValue>
+									<outputTangentTime>0.33333333333333331</outputTangentTime>
+									<outputTangentValue>-0</outputTangentValue>
+								</keypoint>
+							</curve>
+							<rangeName>Stroke Length</rangeName>
+						</parameter>
+					</parameter>
+					<parameter name="Feather" id="102" flags="8589967376" default="0" value="0"/>
+					<parameter name="Falloff" id="158" flags="8589967376" default="0" value="0"/>
+					<parameter name="Curvature" id="159" flags="12884901904" default="1" value="1"/>
+					<parameter name="Radius" id="160" flags="8589938704">
+						<foldFlags>8388623</foldFlags>
+						<parameter name="X" id="1" flags="12884901904" default="26.5374755859375" value="26.5374755859375"/>
+						<parameter name="Y" id="2" flags="12884901904" default="26.5374755859375" value="26.5374755859375"/>
+					</parameter>
+					<parameter name="Completed" id="157" flags="8589934610" default="0" value="1"/>
+				</parameter>
+			</parameter>
+		</scenenode>
+		<scenenode name="yt1s.com - 10 Shooting Drills To Improve Your Hockey Shot At Home  HockeyAtHome_480p copy" id="10040" factoryID="7" version="5">
+			<validTracks>1</validTracks>
+			<aspectRatio>1</aspectRatio>
+			<flags>0</flags>
+			<linkedobjects>10043</linkedobjects>
+			<timing in="28028 120000 1 0" out="256256 120000 1 0" offset="-1185184 120000 1 0"/>
+			<foldFlags>16384</foldFlags>
+			<baseFlags>524368</baseFlags>
+			<parameter name="Properties" id="1" flags="8589938704">
+				<parameter name="Lighting" id="230" flags="8589938706">
+					<foldFlags>15</foldFlags>
+				</parameter>
+				<parameter name="Shadows" id="234" flags="8589938706">
+					<foldFlags>15</foldFlags>
+				</parameter>
+				<parameter name="Reflection" id="223" flags="8589971474">
+					<foldFlags>131087</foldFlags>
+				</parameter>
+				<parameter name="Media" id="324" flags="8589938704">
+					<foldFlags>4</foldFlags>
+					<parameter name="Source Media" id="300" flags="81604444176" default="10005" value="10005"/>
+					<parameter name="Source Media" id="325" flags="8590000146"/>
+				</parameter>
+				<parameter name="Page Number" id="301" flags="8589934610" default="1" value="1"/>
+				<parameter name="Retime Value" id="304" flags="8590066066">
+					<curve type="1" default="1" value="304" round="0" retimingExtrapolation="1">
+						<numberOfKeypoints>2</numberOfKeypoints>
+						<postExtrapolation>1</postExtrapolation>
+						<keypoint interpolation="1" flags="0">
+							<time>1213212 120000 1 0</time>
+							<value>304</value>
+						</keypoint>
+						<keypoint interpolation="1" flags="0">
+							<time>1445444 120000 1 0</time>
+							<value>362</value>
+						</keypoint>
+					</curve>
+				</parameter>
+				<parameter name="Retime Value Cache" id="319" flags="8590065810">
+					<curve type="1" default="1" value="1">
+						<numberOfKeypoints>2</numberOfKeypoints>
+						<keypoint interpolation="1" flags="128">
+							<time>0 1 1 0</time>
+							<value>1</value>
+						</keypoint>
+						<keypoint interpolation="1" flags="128">
+							<time>26162136 120000 1 0</time>
+							<value>6535</value>
+						</keypoint>
+					</curve>
+				</parameter>
+				<parameter name="Duration Cache" id="320" flags="8589934610" default="0" value="6534"/>
+			</parameter>
+			<parameter name="Object" id="2" flags="8589938704">
+				<parameter name="Width" id="313" flags="8589934610" default="1" value="854"/>
+				<parameter name="Height" id="314" flags="8589934610" default="1" value="480"/>
+			</parameter>
+		</scenenode>
+		<scenenode name="yt1s.com - 10 Shooting Drills To Improve Your Hockey Shot At Home  HockeyAtHome_480p" id="10007" factoryID="7" version="5">
+			<validTracks>0</validTracks>
+			<aspectRatio>1</aspectRatio>
+			<flags>0</flags>
+			<linkedobjects>10009</linkedobjects>
+			<timing in="260260 120000 1 0" out="608608 120000 1 0" offset="-3383380 120000 1 0"/>
+			<foldFlags>16384</foldFlags>
+			<baseFlags>524304</baseFlags>
+			<parameter name="Properties" id="1" flags="8589938704">
+				<parameter name="Lighting" id="230" flags="8589938706">
+					<foldFlags>15</foldFlags>
+				</parameter>
+				<parameter name="Shadows" id="234" flags="8589938706">
+					<foldFlags>15</foldFlags>
+				</parameter>
+				<parameter name="Reflection" id="223" flags="8589971474">
+					<foldFlags>131087</foldFlags>
+				</parameter>
+				<parameter name="Media" id="324" flags="8589938704">
+					<foldFlags>4</foldFlags>
+					<parameter name="Source Media" id="300" flags="81604444176" default="10005" value="10005"/>
+					<parameter name="Source Media" id="325" flags="8590000146"/>
+				</parameter>
+				<parameter name="Page Number" id="301" flags="8589934610" default="1" value="1"/>
+				<parameter name="Speed" id="309" flags="8594194448" default="1" value="0.5"/>
+				<parameter name="Retime Value" id="304" flags="8590066066">
+					<curve type="1" default="1" value="456" round="0" retimingExtrapolation="1">
+						<numberOfKeypoints>2</numberOfKeypoints>
+						<postExtrapolation>1</postExtrapolation>
+						<keypoint interpolation="1" flags="0">
+							<time>3643640 120000 1 0</time>
+							<value>456</value>
+						</keypoint>
+						<keypoint interpolation="1" flags="0">
+							<time>3995992 120000 1 0</time>
+							<value>500</value>
+						</keypoint>
+					</curve>
+				</parameter>
+				<parameter name="Retime Value Cache" id="319" flags="8590065810">
+					<curve type="1" default="1" value="1">
+						<numberOfKeypoints>2</numberOfKeypoints>
+						<keypoint interpolation="1" flags="128">
+							<time>0 1 1 0</time>
+							<value>1</value>
+						</keypoint>
+						<keypoint interpolation="1" flags="128">
+							<time>26162136 120000 1 0</time>
+							<value>6535</value>
+						</keypoint>
+					</curve>
+				</parameter>
+				<parameter name="Duration Cache" id="320" flags="8589934610" default="0" value="6534"/>
+			</parameter>
+			<parameter name="Object" id="2" flags="8589938704">
+				<parameter name="Width" id="313" flags="8589934610" default="1" value="854"/>
+				<parameter name="Height" id="314" flags="8589934610" default="1" value="480"/>
+			</parameter>
+		</scenenode>
+		<aspectRatio>1</aspectRatio>
+		<flags>0</flags>
+		<timing in="0 120000 1 0" out="608608 120000 1 0" offset="2050048 120000 1 0"/>
+		<foldFlags>0</foldFlags>
+		<baseFlags>524368</baseFlags>
+		<parameter name="Properties" id="1" flags="8589938704">
+			<parameter name="Lighting" id="230" flags="8589938706">
+				<foldFlags>15</foldFlags>
+			</parameter>
+			<parameter name="Shadows" id="234" flags="8589938706">
+				<foldFlags>15</foldFlags>
+			</parameter>
+			<parameter name="Reflection" id="223" flags="8589971474">
+				<foldFlags>131087</foldFlags>
+			</parameter>
+		</parameter>
+		<parameter name="Object" id="2" flags="8589938704">
+			<parameter name="Fixed Width" id="302" flags="12884901908" default="1920" value="1920"/>
+			<parameter name="Fixed Height" id="303" flags="12884901908" default="1080" value="1080"/>
+			<parameter name="Flatten" id="311" flags="8589934610" default="0" value="0"/>
+			<parameter name="Layer Order" id="305" flags="8589934610" default="0" value="0"/>
+			<parameter name="Aperture Width" id="312" flags="12884901906" default="1920" value="1920"/>
+			<parameter name="Aperture Height" id="313" flags="12884901906" default="1080" value="1080"/>
+		</parameter>
+	</layer>
+
+	<audio name="Audio Layer" id="10010">
+		<audioTrack name="yt1s.com - 10 Shooting Drills To Improve Your Hockey Shot At Home  HockeyAtHome_480p 4 copy" id="10053">
+			<flags>0</flags>
+			<linkedobjects>10050</linkedobjects>
+			<timing in="2070068 120000 1 0" out="2890888 120000 1 0" offset="-43903860 120000 1 0"/>
+			<foldFlags>16384</foldFlags>
+			<baseFlags>524304</baseFlags>
+			<enabled>0</enabled>
+			<parameter name="Properties" id="1" flags="8589938704">
+				<parameter name="Media" id="104" flags="77309476880" default="0" value="10005"/>
+				<parameter name="Retime Value" id="109" flags="8590065682">
+					<curve type="1" default="1" value="5742" round="0" retimingExtrapolation="1">
+						<numberOfKeypoints>2</numberOfKeypoints>
+						<postExtrapolation>1</postExtrapolation>
+						<keypoint interpolation="1" flags="0">
+							<time>45973928 120000 1 0</time>
+							<value>5742</value>
+						</keypoint>
+						<keypoint interpolation="1" flags="0">
+							<time>46798752 120000 1 0</time>
+							<value>5845</value>
+						</keypoint>
+					</curve>
+				</parameter>
+				<parameter name="Retime Value Cache" id="110" flags="8590065682">
+					<curve type="1" default="1" value="1">
+						<numberOfKeypoints>2</numberOfKeypoints>
+						<keypoint interpolation="1" flags="128">
+							<time>0 1 1 0</time>
+							<value>1</value>
+						</keypoint>
+						<keypoint interpolation="1" flags="128">
+							<time>218019 1000 1 0</time>
+							<value>6535.0359640359638</value>
+						</keypoint>
+					</curve>
+				</parameter>
+				<parameter name="Speed" id="111" flags="8594194448" default="1" value="0.5"/>
+			</parameter>
+			<parameter name="Object" id="2" flags="8589938704"/>
+		</audioTrack>
+		<audioTrack name="yt1s.com - 10 Shooting Drills To Improve Your Hockey Shot At Home  HockeyAtHome_480p 3 copy" id="10048">
+			<flags>0</flags>
+			<linkedobjects>10045</linkedobjects>
+			<timing in="1349348 120000 1 0" out="1833832 120000 1 0" offset="-25901876 120000 1 0"/>
+			<foldFlags>16384</foldFlags>
+			<baseFlags>524304</baseFlags>
+			<enabled>0</enabled>
+			<parameter name="Properties" id="1" flags="8589938704">
+				<parameter name="Media" id="104" flags="77309476880" default="0" value="10005"/>
+				<parameter name="Retime Value" id="109" flags="8590065682">
+					<curve type="1" default="1" value="3404" round="0" retimingExtrapolation="1">
+						<numberOfKeypoints>2</numberOfKeypoints>
+						<postExtrapolation>1</postExtrapolation>
+						<keypoint interpolation="1" flags="0">
+							<time>27251224 120000 1 0</time>
+							<value>3404</value>
+						</keypoint>
+						<keypoint interpolation="1" flags="0">
+							<time>27739712 120000 1 0</time>
+							<value>3465</value>
+						</keypoint>
+					</curve>
+				</parameter>
+				<parameter name="Retime Value Cache" id="110" flags="8590065682">
+					<curve type="1" default="1" value="1">
+						<numberOfKeypoints>2</numberOfKeypoints>
+						<keypoint interpolation="1" flags="128">
+							<time>0 1 1 0</time>
+							<value>1</value>
+						</keypoint>
+						<keypoint interpolation="1" flags="128">
+							<time>218019 1000 1 0</time>
+							<value>6535.0359640359638</value>
+						</keypoint>
+					</curve>
+				</parameter>
+				<parameter name="Speed" id="111" flags="8594194448" default="1" value="0.5"/>
+			</parameter>
+			<parameter name="Object" id="2" flags="8589938704"/>
+		</audioTrack>
+		<audioTrack name="yt1s.com - 10 Shooting Drills To Improve Your Hockey Shot At Home  HockeyAtHome_480p copy" id="10043">
+			<flags>0</flags>
+			<linkedobjects>10040</linkedobjects>
+			<timing in="28028 120000 1 0" out="256256 120000 1 0" offset="-1185184 120000 1 0"/>
+			<foldFlags>16384</foldFlags>
+			<baseFlags>524368</baseFlags>
+			<enabled>0</enabled>
+			<parameter name="Properties" id="1" flags="8589938704">
+				<parameter name="Media" id="104" flags="77309476880" default="0" value="10005"/>
+				<parameter name="Retime Value" id="109" flags="8590065682">
+					<curve type="1" default="1" value="304" round="0" retimingExtrapolation="1">
+						<numberOfKeypoints>2</numberOfKeypoints>
+						<postExtrapolation>1</postExtrapolation>
+						<keypoint interpolation="1" flags="0">
+							<time>1213212 120000 1 0</time>
+							<value>304</value>
+						</keypoint>
+						<keypoint interpolation="1" flags="0">
+							<time>1445444 120000 1 0</time>
+							<value>362</value>
+						</keypoint>
+					</curve>
+				</parameter>
+				<parameter name="Retime Value Cache" id="110" flags="8590065682">
+					<curve type="1" default="1" value="1">
+						<numberOfKeypoints>2</numberOfKeypoints>
+						<keypoint interpolation="1" flags="128">
+							<time>0 1 1 0</time>
+							<value>1</value>
+						</keypoint>
+						<keypoint interpolation="1" flags="128">
+							<time>218019 1000 1 0</time>
+							<value>6535.0359640359638</value>
+						</keypoint>
+					</curve>
+				</parameter>
+			</parameter>
+			<parameter name="Object" id="2" flags="8589938704"/>
+		</audioTrack>
+		<audioTrack name="yt1s.com - 10 Shooting Drills To Improve Your Hockey Shot At Home  HockeyAtHome_480p 2 copy" id="10033">
+			<flags>0</flags>
+			<linkedobjects>10030</linkedobjects>
+			<timing in="612612 120000 1 0" out="856856 120000 1 0" offset="-15215200 120000 1 0"/>
+			<foldFlags>16384</foldFlags>
+			<baseFlags>524304</baseFlags>
+			<enabled>0</enabled>
+			<parameter name="Properties" id="1" flags="8589938704">
+				<parameter name="Media" id="104" flags="77309476880" default="0" value="10005"/>
+				<parameter name="Retime Value" id="109" flags="8590065682">
+					<curve type="1" default="1" value="3954" round="0" retimingExtrapolation="1">
+						<numberOfKeypoints>2</numberOfKeypoints>
+						<postExtrapolation>1</postExtrapolation>
+						<keypoint interpolation="1" flags="0">
+							<time>15827812 120000 1 0</time>
+							<value>3954</value>
+						</keypoint>
+						<keypoint interpolation="1" flags="0">
+							<time>16076060 120000 1 0</time>
+							<value>4016</value>
+						</keypoint>
+					</curve>
+				</parameter>
+				<parameter name="Retime Value Cache" id="110" flags="8590065682">
+					<curve type="1" default="1" value="1">
+						<numberOfKeypoints>2</numberOfKeypoints>
+						<keypoint interpolation="1" flags="128">
+							<time>0 1 1 0</time>
+							<value>1</value>
+						</keypoint>
+						<keypoint interpolation="1" flags="128">
+							<time>218019 1000 1 0</time>
+							<value>6535.0359640359638</value>
+						</keypoint>
+					</curve>
+				</parameter>
+			</parameter>
+			<parameter name="Object" id="2" flags="8589938704"/>
+		</audioTrack>
+		<audioTrack name="yt1s.com - 10 Shooting Drills To Improve Your Hockey Shot At Home  HockeyAtHome_480p 4" id="10028">
+			<flags>0</flags>
+			<linkedobjects>10027</linkedobjects>
+			<timing in="1837836 120000 1 0" out="2066064 120000 1 0" offset="-20916896 120000 1 0"/>
+			<foldFlags>16384</foldFlags>
+			<baseFlags>524304</baseFlags>
+			<enabled>0</enabled>
+			<parameter name="Properties" id="1" flags="8589938704">
+				<parameter name="Media" id="104" flags="77309476880" default="0" value="10005"/>
+				<parameter name="Retime Value" id="109" flags="8590065682">
+					<curve type="1" default="1" value="5684" round="0" retimingExtrapolation="1">
+						<numberOfKeypoints>2</numberOfKeypoints>
+						<postExtrapolation>1</postExtrapolation>
+						<keypoint interpolation="1" flags="0">
+							<time>22754732 120000 1 0</time>
+							<value>5684</value>
+						</keypoint>
+						<keypoint interpolation="1" flags="0">
+							<time>22986964 120000 1 0</time>
+							<value>5742</value>
+						</keypoint>
+					</curve>
+				</parameter>
+				<parameter name="Retime Value Cache" id="110" flags="8590065682">
+					<curve type="1" default="1" value="1">
+						<numberOfKeypoints>2</numberOfKeypoints>
+						<keypoint interpolation="1" flags="128">
+							<time>0 1 1 0</time>
+							<value>1</value>
+						</keypoint>
+						<keypoint interpolation="1" flags="128">
+							<time>218019 1000 1 0</time>
+							<value>6535.0359640359638</value>
+						</keypoint>
+					</curve>
+				</parameter>
+			</parameter>
+			<parameter name="Object" id="2" flags="8589938704"/>
+		</audioTrack>
+		<audioTrack name="yt1s.com - 10 Shooting Drills To Improve Your Hockey Shot At Home  HockeyAtHome_480p 3" id="10025">
+			<flags>0</flags>
+			<linkedobjects>10024</linkedobjects>
+			<timing in="1113112 120000 1 0" out="1345344 120000 1 0" offset="-12276264 120000 1 0"/>
+			<foldFlags>16384</foldFlags>
+			<baseFlags>524368</baseFlags>
+			<enabled>0</enabled>
+			<parameter name="Properties" id="1" flags="8589938704">
+				<parameter name="Media" id="104" flags="77309476880" default="0" value="10005"/>
+				<parameter name="Retime Value" id="109" flags="8590065682">
+					<curve type="1" default="1" value="3345" round="0" retimingExtrapolation="1">
+						<numberOfKeypoints>2</numberOfKeypoints>
+						<postExtrapolation>1</postExtrapolation>
+						<keypoint interpolation="1" flags="0">
+							<time>13389376 120000 1 0</time>
+							<value>3345</value>
+						</keypoint>
+						<keypoint interpolation="1" flags="0">
+							<time>13625612 120000 1 0</time>
+							<value>3404</value>
+						</keypoint>
+					</curve>
+				</parameter>
+				<parameter name="Retime Value Cache" id="110" flags="8590065682">
+					<curve type="1" default="1" value="1">
+						<numberOfKeypoints>2</numberOfKeypoints>
+						<keypoint interpolation="1" flags="128">
+							<time>0 1 1 0</time>
+							<value>1</value>
+						</keypoint>
+						<keypoint interpolation="1" flags="128">
+							<time>218019 1000 1 0</time>
+							<value>6535.0359640359638</value>
+						</keypoint>
+					</curve>
+				</parameter>
+			</parameter>
+			<parameter name="Object" id="2" flags="8589938704"/>
+		</audioTrack>
+		<audioTrack name="yt1s.com - 10 Shooting Drills To Improve Your Hockey Shot At Home  HockeyAtHome_480p 2" id="10022">
+			<flags>0</flags>
+			<linkedobjects>10021</linkedobjects>
+			<timing in="856856 120000 1 0" out="1109108 120000 1 0" offset="-32528496 120000 1 0"/>
+			<foldFlags>16384</foldFlags>
+			<baseFlags>524304</baseFlags>
+			<enabled>0</enabled>
+			<parameter name="Properties" id="1" flags="8589938704">
+				<parameter name="Media" id="104" flags="77309476880" default="0" value="10005"/>
+				<parameter name="Retime Value" id="109" flags="8590065682">
+					<curve type="1" default="1" value="4170" round="0" retimingExtrapolation="1">
+						<numberOfKeypoints>2</numberOfKeypoints>
+						<postExtrapolation>1</postExtrapolation>
+						<keypoint interpolation="1" flags="0">
+							<time>33385352 120000 1 0</time>
+							<value>4170</value>
+						</keypoint>
+						<keypoint interpolation="1" flags="0">
+							<time>33641608 120000 1 0</time>
+							<value>4202</value>
+						</keypoint>
+					</curve>
+				</parameter>
+				<parameter name="Retime Value Cache" id="110" flags="8590065682">
+					<curve type="1" default="1" value="1">
+						<numberOfKeypoints>2</numberOfKeypoints>
+						<keypoint interpolation="1" flags="128">
+							<time>0 1 1 0</time>
+							<value>1</value>
+						</keypoint>
+						<keypoint interpolation="1" flags="128">
+							<time>218019 1000 1 0</time>
+							<value>6535.0359640359638</value>
+						</keypoint>
+					</curve>
+				</parameter>
+				<parameter name="Speed" id="111" flags="8594194448" default="1" value="0.5"/>
+			</parameter>
+			<parameter name="Object" id="2" flags="8589938704"/>
+		</audioTrack>
+		<audioTrack name="yt1s.com - 10 Shooting Drills To Improve Your Hockey Shot At Home  HockeyAtHome_480p" id="10009">
+			<flags>0</flags>
+			<linkedobjects>10007</linkedobjects>
+			<timing in="260260 120000 1 0" out="608608 120000 1 0" offset="-3383380 120000 1 0"/>
+			<foldFlags>16384</foldFlags>
+			<baseFlags>524304</baseFlags>
+			<enabled>0</enabled>
+			<parameter name="Properties" id="1" flags="8589938704">
+				<parameter name="Media" id="104" flags="77309476880" default="0" value="10005"/>
+				<parameter name="Retime Value" id="109" flags="8590065682">
+					<curve type="1" default="1" value="456" round="0" retimingExtrapolation="1">
+						<numberOfKeypoints>2</numberOfKeypoints>
+						<postExtrapolation>1</postExtrapolation>
+						<keypoint interpolation="1" flags="0">
+							<time>3643640 120000 1 0</time>
+							<value>456</value>
+						</keypoint>
+						<keypoint interpolation="1" flags="0">
+							<time>3995992 120000 1 0</time>
+							<value>500</value>
+						</keypoint>
+					</curve>
+				</parameter>
+				<parameter name="Retime Value Cache" id="110" flags="8590065682">
+					<curve type="1" default="1" value="1">
+						<numberOfKeypoints>2</numberOfKeypoints>
+						<keypoint interpolation="1" flags="128">
+							<time>0 1 1 0</time>
+							<value>1</value>
+						</keypoint>
+						<keypoint interpolation="1" flags="128">
+							<time>218019 1000 1 0</time>
+							<value>6535.0359640359638</value>
+						</keypoint>
+					</curve>
+				</parameter>
+				<parameter name="Speed" id="111" flags="8594194448" default="1" value="0.5"/>
+			</parameter>
+			<parameter name="Object" id="2" flags="8589938704"/>
+		</audioTrack>
+		<scenenode name="Master" id="10011" factoryID="9" version="5">
+			<flags>0</flags>
+			<timing in="0 1 1 0" out="2890888 120000 1 0" offset="0 1 1 0"/>
+			<foldFlags>0</foldFlags>
+			<baseFlags>524368</baseFlags>
+			<enabled>0</enabled>
+			<parameter name="Properties" id="1" flags="8589938704"/>
+			<parameter name="Object" id="2" flags="8589938704"/>
+		</scenenode>
+		<flags>0</flags>
+		<timing in="28028 120000 1 0" out="2890888 120000 1 0" offset="-32556524 120000 1 0"/>
+		<foldFlags>0</foldFlags>
+		<baseFlags>524368</baseFlags>
+		<parameter name="Properties" id="1" flags="8589938704"/>
+		<parameter name="Object" id="2" flags="8589938704"/>
+	</audio>
+
+	<footage name="Media Layer" id="10006">
+		<clip name="yt1s.com - 10 Shooting Drills To Improve Your Hockey Shot At Home  HockeyAtHome_480p" id="10005">
+			<pathURL>file:///Users/Kostya/Downloads/yt1s.com%20-%2010%20Shooting%20Drills%20To%20Improve%20Your%20Hockey%20Shot%20At%20Home%20%20HockeyAtHome_480p.mp4</pathURL>
+			<relativeURL>../../../Downloads/yt1s.com%20-%2010%20Shooting%20Drills%20To%20Improve%20Your%20Hockey%20Shot%20At%20Home%20%20HockeyAtHome_480p.mp4</relativeURL>
+			<missingWidth>854</missingWidth>
+			<missingHeight>480</missingHeight>
+			<missingDuration>218.01779999999999</missingDuration>
+			<creationDuration>6534</creationDuration>
+			<mediaID></mediaID>
+			<flags>0</flags>
+			<timing in="0 1 1 0" out="26158276 120000 1 0" offset="0 1 1 0"/>
+			<foldFlags>0</foldFlags>
+			<baseFlags>524304</baseFlags>
+			<parameter name="Properties" id="1" flags="8589938704"/>
+			<parameter name="Object" id="2" flags="8589938704">
+				<parameter name="Pixel Aspect Ratio" id="104" flags="12901679104" default="1" value="1"/>
+				<parameter name="Frame Rate" id="107" flags="8606711808" default="0" value="29.970029970029969"/>
+				<parameter name="Fixed Width" id="114" flags="12884901890" default="854" value="854"/>
+				<parameter name="Fixed Height" id="115" flags="12884901890" default="480" value="480"/>
+				<parameter name="Use Background Color" id="116" flags="8589934594" default="0" value="0"/>
+				<parameter name="Background Color" id="117" flags="8589971458">
+					<foldFlags>15</foldFlags>
+					<parameter name="Red" id="1" flags="8589967376" default="1" value="1"/>
+					<parameter name="Green" id="2" flags="8589967376" default="1" value="1"/>
+					<parameter name="Blue" id="3" flags="8589967376" default="1" value="1"/>
+				</parameter>
+				<parameter name="Missing Is Still" id="128" flags="8589934610" default="0" value="0"/>
+			</parameter>
+		</clip>
+		<flags>0</flags>
+		<timing in="0 1 1 0" out="26158276 120000 1 0" offset="0 1 1 0"/>
+		<foldFlags>0</foldFlags>
+		<baseFlags>524304</baseFlags>
+		<parameter name="Properties" id="1" flags="8589938704"/>
+		<parameter name="Object" id="2" flags="8589938704"/>
+	</footage>
+</scene>
+
+</ozml>
