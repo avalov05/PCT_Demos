@@ -1,17 +1,24 @@
 import cv2
 import mediapipe as mp
 import numpy as np
+import matplotlib
+matplotlib.use('TkAgg')  # Use TkAgg backend for better compatibility
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 from matplotlib.animation import FuncAnimation
 from collections import deque
 import time
+import noise
+import random
 
 # -----------------------------
 # Disturbance parameters
 # -----------------------------
-DISTURBANCE_AMPLITUDE_PX = 500     # pixels
-DISTURBANCE_FREQ_HZ = 0.1        # Hz (cycles per second)
+DISTURBANCE_AMPLITUDE_PX = 1000     # pixels
+DISTURBANCE_FREQUENCY = 0.2    #  perlins noise speed
+
+# Random offset to make each run unique
+RANDOM_OFFSET = random.uniform(0, 1000)  # Random starting point for Perlin noise
 
 # -----------------------------
 # MediaPipe setup (Holistic)
@@ -47,13 +54,19 @@ circle_radius_vid = int(circle_radius * 0.5) # video overlay dot radius
 # Figure A: main cursor/target
 # -----------------------------
 fig_main, ax_main = plt.subplots(num="Cursor & Target")
-ax_main.set_facecolor('lightgray')
 ax_main.set_xlim(0, frame_width)
 ax_main.set_ylim(frame_height, 0)          # top-left origin to match image coords
 ax_main.set_aspect('equal', adjustable='box')
 ax_main.set_xmargin(0)
 ax_main.set_ymargin(0)
 ax_main.set_autoscale_on(False)
+
+ax_main.set_xticks([])
+ax_main.set_yticks([])
+ax_main.spines['top'].set_visible(False)
+ax_main.spines['right'].set_visible(False)
+ax_main.spines['bottom'].set_visible(False)
+ax_main.spines['left'].set_visible(False)
 
 target_radius = circle_radius * 1.1
 target_circle = patches.Circle(
@@ -100,6 +113,17 @@ hand_hist     = deque(maxlen=BUFFER_SIZE)
 dot_hist      = deque(maxlen=BUFFER_SIZE)
 
 start_time = time.perf_counter()
+
+# Initialize with some data to ensure plots are visible
+time_hist.append(0.0)
+disturb_hist.append(0.0)
+hand_hist.append(centerX_coord)
+dot_hist.append(centerX_coord)
+
+# Set initial data on the plot lines
+line_disturb.set_data(list(time_hist), list(disturb_hist))
+line_hand.set_data(list(time_hist), list(hand_hist))
+line_dot.set_data(list(time_hist), list(dot_hist))
 
 # -----------------------------
 # Helpers
@@ -159,9 +183,11 @@ def update(_frame_index):
             avg_x_img, avg_y_img = int(np.mean(xs)), int(np.mean(ys))
             cv2.circle(img, (avg_x_img, avg_y_img), int(circle_radius * 0.5), (0, 0, 255), -1)
 
-    # Timebase & disturbance
+    # Timebase & disturbance using Perlin noise
     t = time.perf_counter() - start_time
-    disturbance = DISTURBANCE_AMPLITUDE_PX * np.sin(2 * np.pi * DISTURBANCE_FREQ_HZ * t)
+    # Perlin noise: frequency controls how wavy (lower = smoother waves)
+    # Add random offset to make each run unique
+    disturbance = DISTURBANCE_AMPLITUDE_PX * noise.pnoise1((t * DISTURBANCE_FREQUENCY) + RANDOM_OFFSET)
 
     # Base X for plot: mirror to match the visual "move-right means x increases"
     if hand_x_raw is not None:
@@ -192,15 +218,18 @@ def update(_frame_index):
     hand_hist.append(base_x if hand_x_raw is not None else np.nan)
     dot_hist.append(dot_x)
 
-    # Set data
-    line_disturb.set_data(time_hist, disturb_hist)
-    line_hand.set_data(time_hist, hand_hist)
-    line_dot.set_data(time_hist, dot_hist)
+    # Set data (convert deques to lists for matplotlib)
+    line_disturb.set_data(list(time_hist), list(disturb_hist))
+    line_hand.set_data(list(time_hist), list(hand_hist))
+    line_dot.set_data(list(time_hist), list(dot_hist))
 
     # Autoscale view to the newest data
     for ax in (ax_top, ax_bottom):
         ax.relim()
         ax.autoscale_view()
+    
+    # Force redraw of the time series figure
+    fig_ts.canvas.draw_idle()
 
     # Return artists (blit=False lets us update both figures cleanly)
     return (circle, line_disturb, line_hand, line_dot)
@@ -208,7 +237,7 @@ def update(_frame_index):
 # -----------------------------
 # Run animation
 # -----------------------------
-# Use one animation (tie it to fig_main); set blit=False since we update two figures.
+# Create animation tied to the main figure since that's where the ball movement happens
 ani = FuncAnimation(fig_main, update, interval=30, blit=False, cache_frame_data=False)
 
 plt.show()
