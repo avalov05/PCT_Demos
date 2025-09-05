@@ -28,6 +28,7 @@ holistic = mp_holistic.Holistic(
     min_detection_confidence=0.5,
     min_tracking_confidence=0.5
 )
+count = 0;
 
 # -----------------------------
 # Open webcam (optionally ask for 1280x720)
@@ -142,6 +143,7 @@ def get_hand_x_position(results, width):
 # Animation update
 # -----------------------------
 def update(_frame_index):
+    global count
     global frame_width, frame_height, centerX_coord, centerY_coord
     global circle_radius, target_circle
 
@@ -229,7 +231,9 @@ def update(_frame_index):
         ax.autoscale_view()
     
     # Force redraw of the time series figure
-    fig_ts.canvas.draw_idle()
+    count += 1
+    if count % 10 == 0:
+        fig_ts.canvas.draw_idle()
 
     # Return artists (blit=False lets us update both figures cleanly)
     return (circle, line_disturb, line_hand, line_dot)
