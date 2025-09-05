@@ -10,8 +10,8 @@ import time
 # -----------------------------
 # Disturbance parameters
 # -----------------------------
-DISTURBANCE_AMPLITUDE_PX = 80     # pixels
-DISTURBANCE_FREQ_HZ = 0.25        # Hz (cycles per second)
+DISTURBANCE_AMPLITUDE_PX = 500     # pixels
+DISTURBANCE_FREQ_HZ = 0.1        # Hz (cycles per second)
 
 # -----------------------------
 # MediaPipe setup (Holistic)
